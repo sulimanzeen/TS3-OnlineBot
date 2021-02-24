@@ -9,7 +9,7 @@ $ts = array(
  'address' => '127.0.0.1', // Your TeamSpeak3 Address!
  'tcp_port' => 10011, // (TCP Port == TeamSpeak Query port)!
  'udp_port' => 9987, // (UDP Port = TeamSpeak Voice port)!
- 'botname' => "VodkaTeam-UserRecords[". rand(1,999) ."]"
+ 'botname' => "VodkaTeam-OnlineBot[". rand(1,999) ."]"
 
 );
 
