@@ -5,7 +5,9 @@ Teamspeak 3 Channel Online Bot
 Requirements: 
 
 - PHP 7.0 
-- required PHP extensions:
+
+
+Required PHP extensions:
 - PHP PDO extension
 - PHP PDO MySQL driver
 - PHP cURL extension
