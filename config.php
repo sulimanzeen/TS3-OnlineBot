@@ -17,7 +17,7 @@ $ts = array(
 
 // Config the channel  of online@user count
 
-$channelid = 188756; // Write Your Channel ID Here!
+$channelid = 1; // Write Your Channel ID Here!
 
 
 // On Botname there is should not be any space!!!
