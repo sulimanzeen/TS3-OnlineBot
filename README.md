@@ -29,7 +29,7 @@ Configuration:
 
 2. Once Finished, open the terminal(putty) and make sure that the file has 777 permission.
 
-3. Use this command " Screen -S Ts3-OnlineBot " *This code will open a new screen on your Linux VPS/dedicated. 
+3. Use this command " Screen -S Ts3-OnlineBot " *This command will open a new screen on your Linux VPS/dedicated. 
 
 4. Then use this command " ./bot.sh " Which will start the bot. 
 
