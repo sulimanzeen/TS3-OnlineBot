@@ -15,21 +15,17 @@ require_once('config.php');
 
 
 
-		
-		$ts3 = TeamSpeak3::factory("serverquery://{$ts['username']}:{$ts['password']}@{$ts['address']}:{$ts['tcp_port']}/?server_port={$ts['udp_port']}&nickname={$ts['botname']}");
+$ts3 = TeamSpeak3::factory("serverquery://{$ts['username']}:{$ts['password']}@{$ts['address']}:{$ts['tcp_port']}/?server_port={$ts['udp_port']}&nickname={$ts['botname']}");
 
+$onlinecount = $ts3->clientcount();
 		
 		
-	    $onlinecount = $ts3->clientcount();
-		
-		
-		$ch = $ts3->channelGetById($channelid);
+$ch = $ts3->channelGetById($channelid);
 			
 			
-			
-			$ch->modify(array(
-  "channel_name"  => "[cspacer]Online Users : ". $onlinecount ."",
-  "channel_topic" => "Bot Made By SulimanZeen Aka VodkaTeam"
+$ch->modify(array(
+"channel_name"  => "[cspacer]Online Users : ". $onlinecount ."",
+"channel_topic" => "Bot Made By SulimanZeen Aka VodkaTeam"
 ));  
 		
 		
